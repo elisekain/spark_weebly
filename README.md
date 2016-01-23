@@ -98,7 +98,21 @@
 - Play around by editing CSS properties here and see how they affect the way your website looks.
 - Refresh the page to see the original styles applied again.
 
-## Add custom JavaScript
+## Add custom JavaScript/jQuery
+
+- Click on "Theme" in the top navigation.
+- Select "Edit HTML/CSS".
+- Edit `custom.js`.
+- We're going to be adding "event listeners", so we want all our code to stay within the `$(document).ready(function(){})` at the bottom of the file.
+
+```javascript
+$(".wsite-button-inner").click(function(){
+  alert("Button clicked!");
+});
+```
+
+- Click save, then publish the updated site. Now, every time a button is clicked on the website, we get the alert box with "Button clicked!".
+- While this isn't exceptionally useful by itself, you can expand upon this with modal windows and other more complex actions as you learn more JavaScript or jQuery.
 
 ## Helpful Links
 

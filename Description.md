@@ -7,7 +7,7 @@ In this workshop, you will learn how to rapidly prototype a website using Weebly
 - Create a Weebly website using a template
 - Search and upload images to Weebly
 - Add new pages to your Weebly site
-- Add custom CSS &amp; JavaScript
+- Add custom CSS, JavaScript &amp; jQuery
 
 ## What You'll Make
-You'll be creating a Weebly website that will be customizable with HTML, CSS &amp; JavaScript.
+You'll be creating a Weebly website that will be customizable with HTML, CSS, JavaScript &amp; jQuery.
