@@ -36,7 +36,7 @@
 - Contact Us: How to get in touch with the organization.
 - Switch to Mobile View from the top navigation to preview the site on mobile devices.
 
-## Add &amp; edit an image
+## Add &amp; Edit an Image
 - Use Weebly to search for free images (image attribution is automatically added).
 - Use [Pixabay](https://pixabay.com/) to search for free images (image attribution is not required).
   - Consider image size needed
@@ -58,7 +58,7 @@
   - Click on the button and then select "Link".
   - Select "Standard Page" and then select "Get Involved" from the drop down menu.
 
-## Publish
+## Publish the Site
 - Click on "Publish" on the right side of the top navigation.
 - Verify your subdomain and that you are not a robot.
 - Test out your website in different browsers and with different devices.
@@ -91,7 +91,7 @@
 }
 ```
 
-# Help locating CSS styles (with Safari or Google Chrome)
+### Help locating CSS styles (with Safari or Google Chrome)
 - May need to reference [Safari Developer Tools](http://debugbrowser.com/#safari) or [Chrome Developer Tools](http://debugbrowser.com/#chrome) to set up if you've never used developer tools before.
 - In the live site, right click on the element you want to style and select "Inspect" or "Inspect Element". This will open Developer Tools.
 - Check out the CSS selectors being targeted in the "Styles" tab.
