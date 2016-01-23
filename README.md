@@ -1,11 +1,11 @@
-## Web Design with Weebly
+# Web Design with Weebly
 
 ## Introductions
 - Elise Kain
 - Kathryn Ehlmann
 - Jessica Otey
 
-## Web Design: Things to Consider
+## Things to Consider
 - What is the purpose of this website?
 - Who is our primary target audience? Do we have a secondary audience? Who else might visit our website?
 - What is the most important information to share?
@@ -16,13 +16,13 @@
 ## Web Design Quick Tips
 - Create a visual hierarchy
   - Biggest text: most important information
-  - Bolded text: this information is important too
-  - Italic text: gives emphasis
+  - Bolded text: this information is more important than regular text.
+  - Italic text: adds emphasis.
 - Start with only 1 or 2 fonts
   - Any text using a script font (looks like cursive) should be large and easily readable
   - Make sure there is high contrast between the background and the text
 - Create a color palette using only a few colors (no more than 5) as a guideline.
-- All of these rules are meant to be broken. Just make sure it's for a good reason!
+- Design rules are meant to be broken. Just make sure it's for a good reason!
 
 ## Weebly Account Setup
 
@@ -34,28 +34,31 @@
 
 - Homepage: Write a header, tag line, and call to action button.
 - About Us: Provide a brief history about the organization.
+  - Use a lorem ipsum generator like [Cupcake Ipsum](http://www.cupcakeipsum.com/)
 - Contact Us: How to get in touch with the organization.
 
 ## Helpful Links
 
-# Learn about HTML, CSS &amp; JavaScript
+### Learn about HTML, CSS &amp; JavaScript
 - [CSS Tricks Almanac](https://css-tricks.com/almanac/)
 - [w3schools](http://www.w3schools.com/)
 
-# Stock Photos (in the public domain)
+### Stock Photos (in the public domain)
 - [Pixabay](https://pixabay.com/)
 - [MorgueFile](http://www.morguefile.com/)
 - [Subtle Patterns](http://subtlepatterns.com/)
 
-# Color Palette
+### Color Palette
 - [Coolors.co](https://coolors.co/app)
 - [flatuicolorpicker](http://www.flatuicolorpicker.com/)
 - [ColorHexa](http://www.colorhexa.com/)
 
-# Icons
+### Icons
 - [Icomoon.io](https://icomoon.io/app/#/select)
 - [FontAwesome](https://fortawesome.github.io/Font-Awesome/)
 
-# Lorem Ipsum Generators
+### Lorem Ipsum Generators
 - [Cupcake Ipsum](http://www.cupcakeipsum.com/)
+- [Minions Ipsum](http://www.minionsipsum.com/)
+- [Cheese Ipsum](http://www.cheeseipsum.co.uk/)
 - [Harry Potter Ipsum](http://www.christinachern.com/hpipsum/)
