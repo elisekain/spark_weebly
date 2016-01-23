@@ -16,26 +16,89 @@
 ## Web Design Quick Tips
 - Create a visual hierarchy
   - Biggest text: most important information
-  - Bolded text: this information is more important than regular text.
-  - Italic text: adds emphasis.
+  - Bolded text: this information is more important than regular text
+  - Italic text: adds emphasis
 - Start with only 1 or 2 fonts
   - Any text using a script font (looks like cursive) should be large and easily readable
   - Make sure there is high contrast between the background and the text
-- Create a color palette using only a few colors (no more than 5) as a guideline.
+- Create a color palette using only a few colors (&lt;5) as a guideline.
 - Design rules are meant to be broken. Just make sure it's for a good reason!
 
 ## Weebly Account Setup
-
 - [Sign up](http://www.weebly.com/signup) for a Weebly account.
 - Select a theme
 - Create a subdomain (like http://turtleretreat.weebly.com)
 
-## Basic Theme Customization
-
+## Basic Page Customization
+- Customize header
 - Homepage: Write a header, tag line, and call to action button.
 - About Us: Provide a brief history about the organization.
-  - Use a lorem ipsum generator like [Cupcake Ipsum](http://www.cupcakeipsum.com/)
 - Contact Us: How to get in touch with the organization.
+- Switch to Mobile View from the top navigation to preview the site on mobile devices.
+
+## Add &amp; edit an image
+- Use Weebly to search for free images (image attribution is automatically added).
+- Use [Pixabay](https://pixabay.com/) to search for free images (image attribution is not required).
+  - Consider image size needed
+  - Download image to computer
+  - Upload image to Weebly site
+
+## Add a New Page
+- Create a "Get Involved" page
+  - Select "Pages" from the top navigation bar.
+  - Click the plus sign at the top of the left sidebar menu.
+  - Choose to add a "Standard" page
+  - Name it "Get Involved"
+  - Click "Save"
+- Other page customizations
+  - Drag the pages around if you'd like to change their order of appearance in the menu.
+  - Experiment with different header types, depending on the type of information on each page.
+- Create a link to the new page
+  - On the homepage, link the "Get Involved" call to action button to the new "Get Involved" page.
+  - Click on the button and then select "Link".
+  - Select "Standard Page" and then select "Get Involved" from the drop down menu.
+
+## Publish
+- Click on "Publish" on the right side of the top navigation.
+- Verify your subdomain and that you are not a robot.
+- Test out your website in different browsers and with different devices.
+
+## Add custom CSS
+- Click on "Theme" in the top navigation.
+- Select "Edit HTML/CSS".
+- Edit `main_style.css`. You can edit the styles "inline" or add new custom styles at the bottom of the page.
+- Save the edited stylesheet as a new template.
+
+```css
+/* Original Styles */
+.dusk-header .nav-wrap {
+  background: #07342a;
+}
+
+.nav li#active > a.wsite-menu-item,
+.nav li > a.wsite-menu-item:hover {
+  background: #052b22;
+}
+
+/* Custom Styles */
+.dusk-header .nav-wrap {
+  background: #7e7e7e;
+}
+
+.nav li#active > a.wsite-menu-item,
+.nav li > a.wsite-menu-item:hover {
+  background: #585858;
+}
+```
+
+# Help locating CSS styles (with Safari or Google Chrome)
+- May need to reference [Safari Developer Tools](http://debugbrowser.com/#safari) or [Chrome Developer Tools](http://debugbrowser.com/#chrome) to set up if you've never used developer tools before.
+- In the live site, right click on the element you want to style and select "Inspect" or "Inspect Element". This will open Developer Tools.
+- Check out the CSS selectors being targeted in the "Styles" tab.
+- Play around by editing CSS properties here and see how they affect the way your website looks.
+- Refresh the page to see the original styles applied again.
+
+## Add custom JavaScript
 
 ## Helpful Links
 
@@ -53,8 +116,9 @@
 - [flatuicolorpicker](http://www.flatuicolorpicker.com/)
 - [ColorHexa](http://www.colorhexa.com/)
 
-### Icons
+### Icons and Logo Creation
 - [Icomoon.io](https://icomoon.io/app/#/select)
+- [Canva](https://www.canva.com/)
 - [FontAwesome](https://fortawesome.github.io/Font-Awesome/)
 
 ### Lorem Ipsum Generators
