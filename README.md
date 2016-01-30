@@ -2,6 +2,9 @@
 
 ## Introductions
 - Elise Kain
+- Kim Cox
+- Kathryn Ehlmann
+- Jessica Otey
 
 ## Things to Consider
 - What is the purpose of this website?
